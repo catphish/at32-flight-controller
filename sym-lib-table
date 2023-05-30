@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "flight-controller")(type "KiCad")(uri "${KIPRJMOD}/flight-controller.kicad_sym")(options "")(descr ""))
+)
