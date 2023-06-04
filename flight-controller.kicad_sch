@@ -2926,12 +2926,12 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ead4450e-aabb-4be1-8505-faea5496ebbb)
   )
-  (text "TODO\n* Voltage sense\n* Current sense\n* Pads\n* Connectors"
+  (text "TODO\n* Voltage sense\n* Pads\n* Connectors\n* LED resistors\n* OSD crystal"
     (at 264.16 109.22 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ed9a74a2-6a30-44f1-ad91-d3810f6d4662)
   )
-  (text "NOTES\n* TMR3 pins are for primary motors.\n* TMR3 pins could be mapped to TMR8.\n* TMR2/TMR9 are for servos.\n* Confirm that crystal is not needed\n  for USB.\n* Check we can interrupt on PB0\n* LED supplies can be 5V as long as\n  LED pins on MCU are FT.\n* Consider TagConnect for SWD"
+  (text "NOTES\n* TMR3 pins are for primary motors.\n* TMR3 pins could be mapped to TMR8.\n* TMR2/TMR9 are for servos.\n* Consider TagConnect for SWD\n* Some capacitors may be redundant\n  depending on layout."
     (at 223.52 109.22 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f135276f-ee4e-405f-8f76-ab46dc841bbc)
