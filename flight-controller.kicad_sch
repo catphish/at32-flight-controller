@@ -2331,9 +2331,7 @@
 
   (no_connect (at 110.49 101.6) (uuid 05ec6908-e3da-4a5a-b3f6-3d3b1a3ae4db))
   (no_connect (at 110.49 99.06) (uuid 0bcd5b2a-dbea-43c2-a92c-9caa687f4360))
-  (no_connect (at 149.86 88.9) (uuid 1d39933c-52c5-44e9-99e3-7f53fa0e1cae))
   (no_connect (at 96.52 43.18) (uuid 2fd6bc62-65a8-4a5b-9bcd-4273c7fc1a46))
-  (no_connect (at 149.86 91.44) (uuid 3738bf43-9132-4763-be0d-cf5b2016e790))
   (no_connect (at 102.87 133.35) (uuid 49ada7d8-0400-47a3-8791-d4915c5cb8df))
   (no_connect (at 119.38 40.64) (uuid 6a1279f3-bcdb-492b-b1e6-9ae06dc0de9d))
   (no_connect (at 228.6 40.64) (uuid 7905068d-125e-4b27-ba30-003f8e031281))
@@ -4350,6 +4348,31 @@
       (project "flight-controller"
         (path "/1ea4b7d2-6956-4f87-9f61-d89fdcbfe01f"
           (reference "C31") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 149.86 91.44 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3f486a77-e54e-43d9-947c-20dc5fa0ce53)
+    (property "Reference" "#PWR053" (at 153.67 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 147.32 91.44 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 149.86 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 149.86 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 80019984-a0be-4fb5-9825-a298ad6303ee))
+    (instances
+      (project "flight-controller"
+        (path "/1ea4b7d2-6956-4f87-9f61-d89fdcbfe01f"
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -6804,6 +6827,31 @@
       (project "flight-controller"
         (path "/1ea4b7d2-6956-4f87-9f61-d89fdcbfe01f"
           (reference "R13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 149.86 88.9 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e4721eda-125f-496b-ad59-4d7ccfbb96a5)
+    (property "Reference" "#PWR052" (at 153.67 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 147.32 88.9 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 149.86 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 149.86 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3eeba1be-f53e-4ef7-8aa8-b18aed194c51))
+    (instances
+      (project "flight-controller"
+        (path "/1ea4b7d2-6956-4f87-9f61-d89fdcbfe01f"
+          (reference "#PWR052") (unit 1)
         )
       )
     )
